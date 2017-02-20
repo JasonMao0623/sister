@@ -1,0 +1,6 @@
+<import src="video-template/video-template.wxml" />
+<view>
+    <block wx:for="{{videoData}}">
+    <template is="videoTemplate" data="{{...item}}"/>
+    </block>
+</view>

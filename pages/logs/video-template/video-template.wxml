@@ -1,0 +1,17 @@
+<template name="videoTemplate">
+    <view class="idt-container">
+    <view class="user-time">
+        <image src="{{userAvator}}" class="user-avator"></image>
+        <text class="user-name">{{userName}}</text>
+      <text class="current-time">{{time}}</text>
+    </view>
+    <video src="{{videoUrl}}" class="video"></video>
+    <text class="discribe">{{text}}</text>
+    <view class="comment">
+      <text>{{love}}</text>
+      <text>顶</text>
+      <text>{{hate}}</text>
+      <text>踩</text>
+    </view>
+  </view>
+</template>

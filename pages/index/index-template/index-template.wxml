@@ -1,0 +1,16 @@
+<template name="indexTemplate">
+  <view class="idt-container">
+    <view class="user-time">
+        <image src="{{userAvator}}" class="user-avator"></image>
+        <text class="user-name">{{userName}}</text>
+      <text class="current-time">{{time}}</text>
+    </view>
+    <text class="content">{{text}}</text>
+    <view class="comment">
+      <text>{{love}}</text>
+      <text>顶</text>
+      <text>{{hate}}</text>
+      <text>踩</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,5 @@
+/* pages/index/index.wxss */
+@import "index-template/index-template.wxss";
+page{
+    background-color:ghostwhite;
+}

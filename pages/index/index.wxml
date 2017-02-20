@@ -1,0 +1,6 @@
+<import src="index-template/index-template.wxml" />
+<view>
+    <block wx:for="{{sisterData}}">
+    <template is="indexTemplate" data="{{...item}}"/>
+    </block>
+</view>
